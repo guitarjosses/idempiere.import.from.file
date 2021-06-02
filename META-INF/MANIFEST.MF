@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: File
+Bundle-SymbolicName: ni.idempiere.from.file
+Bundle-Version: 1.0.0.qualifier
+Automatic-Module-Name: ni.idempiere.from.file
+Bundle-RequiredExecutionEnvironment: JavaSE-11
+Require-Bundle: org.adempiere.base;bundle-version="8.2.0",
+ org.adempiere.plugin.utils;bundle-version="8.2.0",
+ org.adempiere.base.process;bundle-version="8.2.0"
+Bundle-Activator: org.adempiere.plugin.utils.AdempiereActivator
+Service-Component: ImportFromFileFactory.xml
+Bundle-ActivationPolicy: lazy
